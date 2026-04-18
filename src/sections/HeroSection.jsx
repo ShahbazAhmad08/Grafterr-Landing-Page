@@ -2,8 +2,8 @@ import useContent from "../hooks/useContent";
 import { fetchHeroContent, fetchNavigation } from "../services/api";
 import GradientText from "../components/GradientText";
 import GradientButton from "../components/GradientButton";
-import FloatingShape from "../components/FloatingShape";
 import Skeleton from "../components/Skeleton";
+import Header from "./header";
 
 function HeroSection() {
   const hero = useContent(fetchHeroContent);
@@ -36,23 +36,8 @@ function HeroSection() {
   return (
     <section className="hero">
       <div className="container">
-        {/* <header className="navbar">
-          <img
-            src={nav.data.logo.src}
-            alt={nav.data.logo.alt}
-            className="logo"
-          />
-
-          <nav>
-            {nav.data.links.map((link) => (
-              <a key={link.label} href={link.href}>
-                {link.label}
-              </a>
-            ))}
-          </nav>
-
-          <GradientButton>{nav.data.cta}</GradientButton>
-        </header> */}
+      <Header nav={nav}/>
+     
 
         <div className="hero-box">
          

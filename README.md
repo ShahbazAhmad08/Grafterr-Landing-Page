@@ -51,4 +51,6 @@ The project was built using reusable React components and custom hooks for conte
 
 ## Notes
 
-Images were added locally and layout was matched closely to the provided Figma design.
+- The layout was matched as closely as possible to the provided Figma design.
+- Product and logo assets were added locally.
+- A lightweight header and footer were included as small UI enhancements while preserving the original core design structure.
