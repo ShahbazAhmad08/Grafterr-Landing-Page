@@ -1,0 +1,14 @@
+:root {
+  --primary: #3b82f6;
+  --secondary: #f97316;
+  --dark: #000000;
+  --text: #475569;
+  --white: #ffffff;
+  --border: #e2e8f0;
+  --bg: #FFFFFF;
+
+  --gradient: linear-gradient(90deg, #3b82f6, #f97316);
+
+  --container: 1200px;
+  --radius: 18px;
+}

@@ -1,0 +1,57 @@
+{
+  "navigation": {
+    "logo": {
+      "src": "/images/logo.png",
+      "alt": "Grafterr Logo"
+    },
+    "links": [
+      { "label": "Products", "href": "#" },
+      { "label": "Solutions", "href": "#" }
+    ],
+    "cta": "Book a Demo"
+  },
+  "hero": {
+    "headlinePrefix": "Looking for a new",
+    "headlineGradient": "technology provider ?",
+    "subheadlineStart": "Explore our ",
+    "subheadlineBold": "success stories",
+    "subheadlineEnd": " to see how businesses like yours have transformed with Grafterr's technology.",
+    "cta": "Book a Demo",
+    "shapes": {
+      "circle": true,
+      "rectangle": true
+    }
+  },
+  "featuresSection": {
+    "titleStart": "More ways ",
+    "titleHighlight": "Grafterr",
+    "titleEnd": " can help you grow your business",
+    "subtitle": "An award-winning, end-to-end restaurant technology & payments platform, designed to streamline food service and automate complex venue operations.",
+    "products": [
+      {
+        "id": 1,
+        "title": "Point of Sale",
+        "description": "Powerful POS system for faster orders and smarter operations.",
+        "image": "/images/pos.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Self-service",
+        "description": "Reduce queues and improve customer experience with kiosks.",
+        "image": "/images/self-service.avif"
+      },
+      {
+        "id": 3,
+        "title": "Kitchen Management",
+        "description": "Keep kitchen workflows efficient and synchronized in real time.",
+        "image": "/images/kitchen.jpg"
+      }
+    ],
+    "carousel": {
+      "mobile": 1,
+      "tablet": 2,
+      "desktop": 3,
+      "showArrows": true
+    }
+  }
+}
