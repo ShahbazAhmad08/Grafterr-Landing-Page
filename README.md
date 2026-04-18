@@ -1,16 +1,54 @@
-# React + Vite
+# Grafterr Landing Page – Front-End Technical Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Chosen Stack
 
-Currently, two official plugins are available:
+React + Vite + CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+https://grafterr-landing-page-ten.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## GitHub Repository
 
-## Expanding the ESLint configuration
+https://github.com/ShahbazAhmad08/Grafterr-Landing-Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features Implemented
+
+- Fully responsive landing page
+- Dynamic content loaded from local JSON
+- Simulated API delay
+- Hero section
+- Features/product cards
+- Reusable React components
+- Loading skeleton states
+- Error handling with retry
+- Clean component architecture
+- CSS animations
+
+## Tech Used
+
+- React 18
+- Vite
+- JavaScript (ES6+)
+- CSS3
+
+## Setup Instructions
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Approach
+
+The project was built using reusable React components and custom hooks for content fetching and state management. All page content is stored in a local JSON file and loaded asynchronously to simulate a real API workflow.
+
+## Notes
+
+Images were added locally and layout was matched closely to the provided Figma design.

@@ -1,7 +1,7 @@
 const randomDelay = () => 1000 + Math.floor(Math.random() * 500);
 
 const fetchContent = async () => {
-  const response = await fetch("/src/data/content.json");
+  const response = await fetch("/public/data/content.json");
 
   if (!response.ok) {
     throw new Error("Failed to load content");
